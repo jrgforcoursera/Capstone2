@@ -37,8 +37,7 @@ Data files used:
 ## What is the distribution of car accident causes?
 
 ### EDA
-#### [Distribution of car accidents's primary causes](./visualizationsv.ipynb)
-   <img src='images/crashtype.PNG' width='50%'/> 
+#### [Distribution of car accidents's primary causes]
 
 The most deadly types of crashes leading in proportions are Turning at 19% and Angle at 13%. I’ll recommend focusing on these as they account for the most fatalities.
 
@@ -55,8 +54,7 @@ The most deadly types of crashes leading in proportions are: Turning at 19% and 
 ## What regions do the most car accidents occur?
 
 ### EDA
-#### [Distribution of car accidents with injuries by street](./visualizationsv.ipynb)
-   <img src='images/crashwinjuries.PNG' width='60%'/>
+#### [Distribution of car accidents with injuries by street]
 
 
 ### Conclusion
@@ -70,8 +68,7 @@ I'll definitely recommend channeling more law enforcers and first aid responders
 ## What effect do external factors have on the amount of car crashes and car crashes with injuries?
 
 ### EDA
-#### [Time & Weather's effect on amount of accidents that occur](./visualizationsv.ipynb)
-   <img src='images/timenwea.PNG' width='1000%'/>
+#### [Time & Weather's effect on amount of accidents that occur]
 
 ### Conclusion
 From the histogram we can see most accidents occur in clear weather but more accidents with injuries occurs when there’s hail or when it snows. We can also see more accidents occur from 4pm to 8pm.
@@ -93,20 +90,20 @@ Random Forest, X Boosting & LinearSVC classifiers where implimented after re-sam
    * Age
    * Physical Condition
 
-  <img src='images/cm.PNG' width='1000%'/>
+ 
 
 
 
 ## Interpretion
 The model gave a log loss of 12.9 which and accuracy of 62%. This means the amount the model penelizes for incorrect predictions 12.6 but it only predicted 62% of the primary causes of accidents accurately.
 
-  <img src='images/recall.PNG' width='75%'/>
+
 
 Its total recall is 62% which is the total amount of times the model classified the cause of an accident was a category correctly out of the total amount of times that category was indeed the cause.
 
 Its total precision is 62% and this is the total amount of times the model classified the cause of an accident was a category correctly out of the total amount of the predictions made for that category.
 
-  <img src='images/roc.PNG' width='1000%'/>
+
 
 The AUC score is 0.8 and this is the average probability that the model can classifiy each class correctly. 
 
